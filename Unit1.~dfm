@@ -48,6 +48,7 @@ object FUtama: TFUtama
     Height = 41
     Caption = 'Perbedaan'
     TabOrder = 1
+    OnClick = BitBedaClick
   end
   object BitCaraKerja: TBitBtn
     Left = 368
@@ -56,6 +57,7 @@ object FUtama: TFUtama
     Height = 41
     Caption = 'Cara Kerja'
     TabOrder = 2
+    OnClick = BitCaraKerjaClick
   end
   object BitImplementasi: TBitBtn
     Left = 368

@@ -1,0 +1,5 @@
+Waste Management adalah sistem pengolahan sampah di 
+sebuah kota sebagai implementasi IoT--yaitu pengolahan sampah.
+IoT sendiri adalah konsep yang bertujuan untuk memperluas 
+manfaat dari konektivitas internet yang tersambung 
+secara terus-menerus.

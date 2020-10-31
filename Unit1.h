@@ -23,6 +23,8 @@ __published:	// IDE-managed Components
         TLabel *LblJdl;
         void __fastcall BitDefinisiClick(TObject *Sender);
         void __fastcall BitBtn5Click(TObject *Sender);
+        void __fastcall BitBedaClick(TObject *Sender);
+        void __fastcall BitCaraKerjaClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TFUtama(TComponent* Owner);

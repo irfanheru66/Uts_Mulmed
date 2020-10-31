@@ -30,9 +30,15 @@ __published:	// IDE-managed Components
         TTimer *Timer4;
         TTimer *Timer5;
         TTimer *Timer6;
+        
         void __fastcall BitBtn5Click(TObject *Sender);
+        void __fastcall Timer1Timer(TObject *Sender);
+        void __fastcall Timer2Timer(TObject *Sender);
+        void __fastcall Timer3Timer(TObject *Sender);
+        void __fastcall Timer4Timer(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
+String Filename[6];
         __fastcall TFMateri(TComponent* Owner);
 };
 //---------------------------------------------------------------------------

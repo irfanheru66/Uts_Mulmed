@@ -14,8 +14,8 @@ object FMateri: TFMateri
   PixelsPerInch = 96
   TextHeight = 13
   object Background: TImage
-    Left = -8
-    Top = 0
+    Left = 0
+    Top = 8
     Width = 953
     Height = 457
     Center = True
@@ -27,7 +27,7 @@ object FMateri: TFMateri
     Height = 241
   end
   object LblJdl: TLabel
-    Left = 432
+    Left = 280
     Top = 24
     Width = 64
     Height = 32
@@ -99,21 +99,25 @@ object FMateri: TFMateri
   end
   object Timer1: TTimer
     Enabled = False
+    OnTimer = Timer1Timer
     Left = 176
     Top = 112
   end
   object Timer2: TTimer
     Enabled = False
+    OnTimer = Timer2Timer
     Left = 176
     Top = 112
   end
   object Timer3: TTimer
     Enabled = False
+    OnTimer = Timer3Timer
     Left = 176
     Top = 112
   end
   object Timer4: TTimer
     Enabled = False
+    OnTimer = Timer4Timer
     Left = 176
     Top = 112
   end

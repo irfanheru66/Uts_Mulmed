@@ -1,0 +1,2 @@
+Microcontroller melalui sensor mendeteksi seberapa tinggi 
+level sampah di dalam tempat sampah.

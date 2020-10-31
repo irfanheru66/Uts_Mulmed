@@ -1,0 +1,2 @@
+Jadi setiap tempat sampah sudah terdapat microcontroller,modem,
+dan sensor.

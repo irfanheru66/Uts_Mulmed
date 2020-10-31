@@ -1,0 +1,3 @@
+IoT sendiri adalah konsep yang bertujuan untuk memperluas 
+manfaat dari konektivitas internet yang tersambung 
+secara terus-menerus.

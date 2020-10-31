@@ -1,0 +1,2 @@
+Jika dikategorikan tinggi, maka microcontroller akan mengirim 
+data ke internet melalui modem.
