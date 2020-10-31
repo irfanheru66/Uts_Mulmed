@@ -1,4 +1,4 @@
-object FUtama: TFUtama
+object Form1: TForm1
   Left = 287
   Top = 158
   Width = 867

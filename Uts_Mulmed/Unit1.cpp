@@ -7,11 +7,11 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-TFUtama *FUtama;
+TForm1 *Form1;
 //---------------------------------------------------------------------------
-__fastcall TFUtama::TFUtama(TComponent* Owner)
+__fastcall TForm1::TForm1(TComponent* Owner)
         : TForm(Owner)
 {
 }
 //---------------------------------------------------------------------------
- 
+

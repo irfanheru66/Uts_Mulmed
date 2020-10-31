@@ -1,9 +1,9 @@
-object Form1: TForm1
-  Left = 249
-  Top = 98
+object FUtama: TFUtama
+  Left = 287
+  Top = 158
   Width = 867
   Height = 510
-  Caption = 'Form1'
+  Caption = 'Menu Utama'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,6 +18,19 @@ object Form1: TForm1
     Top = 0
     Width = 849
     Height = 465
+  end
+  object LblJdl: TLabel
+    Left = 112
+    Top = 24
+    Width = 618
+    Height = 32
+    Caption = 'Waste Management sebagai Bagian dari Smart City'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -27
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
   end
   object BitDefinisi: TBitBtn
     Left = 368

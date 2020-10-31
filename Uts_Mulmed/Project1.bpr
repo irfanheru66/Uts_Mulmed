@@ -29,14 +29,14 @@
     <USERDEFINES value="_DEBUG"/>
     <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
     <MAINSOURCE value="Project1.cpp"/>
-    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;D:\codingan\c++\mulmed\Uts_Mulmed;$(BCB)\include;$(BCB)\include\vcl"/>
-    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;D:\codingan\c++\mulmed\Uts_Mulmed;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl;D:\codingan\c++\mulmed\Mulmed_Uts\Uts_Mulmed"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;D:\codingan\c++\mulmed\Mulmed_Uts\Uts_Mulmed;$(BCB)\lib\obj;$(BCB)\lib"/>
     <WARNINGS value="-w-par"/>
     <OTHERFILES value=""/>
   </MACROS>
   <OPTIONS>
-    <IDLCFLAGS value="-I&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot; 
-      -ID:\codingan\c++\mulmed\Uts_Mulmed -I$(BCB)\include -I$(BCB)\include\vcl 
+    <IDLCFLAGS value="-I&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -ID:\codingan\c++\mulmed\Mulmed_Uts\Uts_Mulmed 
       -src_suffix cpp -D_DEBUG -boa"/>
     <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
       -tW -tWM"/>
@@ -88,6 +88,31 @@ OriginalFilename=
 ProductName=
 ProductVersion=1.0.0.0
 Comments=
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Bin\dclado60.bpl=Borland ADO DB Components
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl;D:\codingan\c++\mulmed\Mulmed_Uts\Uts_Mulmed
+Item1=C:\Program Files (x86)\Borland\CBuilder6\Projects;..\Mulmed_Uts\Uts_Mulmed;$(BCB)\include;$(BCB)\include\vcl
+Item2=C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\codingan\c++\mulmed\Mulmed_Uts\Uts_Mulmed;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\codingan\c++\mulmed\Uts_Mulmed;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\codingan\c++\mulmed\Mulmed_Uts\Uts_Mulmed;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files (x86)\Borland\CBuilder6\Projects;..\Mulmed_Uts\Uts_Mulmed;$(BCB)\lib\obj;$(BCB)\lib
+Item2=C:\Program Files (x86)\Borland\CBuilder6\Projects;D:\codingan\c++\mulmed\Uts_Mulmed;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
 
 [Debugging]
 DebugSourceDirs=$(BCB)\source\vcl

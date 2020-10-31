@@ -22,6 +22,12 @@ __published:	// IDE-managed Components
         TMediaPlayer *MediaMusik;
         TMemo *Teks;
         TLabel *LblJdl;
+        TTimer *Timer1;
+        TTimer *Timer2;
+        TTimer *Timer3;
+        TTimer *Timer4;
+        TTimer *Timer5;
+        TTimer *Timer6;
 private:	// User declarations
 public:		// User declarations
         __fastcall TFMateri(TComponent* Owner);

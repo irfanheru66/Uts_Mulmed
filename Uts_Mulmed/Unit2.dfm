@@ -21,7 +21,7 @@ object FMateri: TFMateri
     Center = True
   end
   object MateriImg: TImage
-    Left = 688
+    Left = 240
     Top = 160
     Width = 240
     Height = 241
@@ -79,12 +79,42 @@ object FMateri: TFMateri
     TabOrder = 4
   end
   object Teks: TMemo
-    Left = 424
+    Left = 496
     Top = 160
     Width = 217
     Height = 241
     Lines.Strings = (
       'Teks')
     TabOrder = 5
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Left = 208
+    Top = 112
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Left = 208
+    Top = 112
+  end
+  object Timer3: TTimer
+    Enabled = False
+    Left = 208
+    Top = 112
+  end
+  object Timer4: TTimer
+    Enabled = False
+    Left = 208
+    Top = 112
+  end
+  object Timer5: TTimer
+    Enabled = False
+    Left = 208
+    Top = 112
+  end
+  object Timer6: TTimer
+    Enabled = False
+    Left = 208
+    Top = 112
   end
 end

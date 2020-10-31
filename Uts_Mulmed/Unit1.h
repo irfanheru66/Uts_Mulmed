@@ -10,7 +10,7 @@
 #include <ExtCtrls.hpp>
 #include <Buttons.hpp>
 //---------------------------------------------------------------------------
-class TFUtama : public TForm
+class TForm1 : public TForm
 {
 __published:	// IDE-managed Components
         TImage *Image1;
@@ -23,9 +23,9 @@ __published:	// IDE-managed Components
         TLabel *LblJdl;
 private:	// User declarations
 public:		// User declarations
-        __fastcall TFUtama(TComponent* Owner);
+        __fastcall TForm1(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TFUtama *FUtama;
+extern PACKAGE TForm1 *Form1;
 //---------------------------------------------------------------------------
 #endif
