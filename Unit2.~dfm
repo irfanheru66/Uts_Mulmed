@@ -1,6 +1,6 @@
 object FMateri: TFMateri
-  Left = 246
-  Top = 149
+  Left = 292
+  Top = 39
   Width = 970
   Height = 504
   Caption = 'Materi'
@@ -86,5 +86,14 @@ object FMateri: TFMateri
     Lines.Strings = (
       'Teks')
     TabOrder = 5
+  end
+  object BitBtn5: TBitBtn
+    Left = 24
+    Top = 32
+    Width = 121
+    Height = 41
+    Caption = 'Close'
+    TabOrder = 6
+    OnClick = BitBtn5Click
   end
 end

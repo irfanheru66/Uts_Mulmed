@@ -24,6 +24,12 @@ __published:	// IDE-managed Components
         TMemo *Teks;
         TLabel *LblJdl;
         TBitBtn *BitBtn5;
+        TTimer *Timer1;
+        TTimer *Timer2;
+        TTimer *Timer3;
+        TTimer *Timer4;
+        TTimer *Timer5;
+        TTimer *Timer6;
         void __fastcall BitBtn5Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations

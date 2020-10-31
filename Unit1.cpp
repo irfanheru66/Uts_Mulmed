@@ -20,6 +20,7 @@ void __fastcall TFUtama::BitDefinisiClick(TObject *Sender)
 {
 FMateri->Show();
 FUtama->Hide();
+
 }
 //---------------------------------------------------------------------------
 void __fastcall TFUtama::BitBtn5Click(TObject *Sender)
