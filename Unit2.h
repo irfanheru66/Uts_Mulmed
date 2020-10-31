@@ -9,6 +9,7 @@
 #include <Forms.hpp>
 #include <ExtCtrls.hpp>
 #include <MPlayer.hpp>
+#include <Buttons.hpp>
 //---------------------------------------------------------------------------
 class TFMateri : public TForm
 {
@@ -22,6 +23,8 @@ __published:	// IDE-managed Components
         TMediaPlayer *MediaMusik;
         TMemo *Teks;
         TLabel *LblJdl;
+        TBitBtn *BitBtn5;
+        void __fastcall BitBtn5Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TFMateri(TComponent* Owner);

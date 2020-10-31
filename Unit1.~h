@@ -21,6 +21,7 @@ __published:	// IDE-managed Components
         TBitBtn *BitBtn5;
         TBitBtn *BitBtn6;
         TLabel *LblJdl;
+        void __fastcall BitDefinisiClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TFUtama(TComponent* Owner);

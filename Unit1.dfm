@@ -39,6 +39,7 @@ object FUtama: TFUtama
     Height = 41
     Caption = 'Definisi'
     TabOrder = 0
+    OnClick = BitDefinisiClick
   end
   object BitBeda: TBitBtn
     Left = 368
@@ -71,6 +72,7 @@ object FUtama: TFUtama
     Height = 41
     Caption = 'Close'
     TabOrder = 4
+    OnClick = BitBtn5Click
   end
   object BitBtn6: TBitBtn
     Left = 8

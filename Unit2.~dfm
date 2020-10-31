@@ -1,9 +1,9 @@
-object Form2: TForm2
+object FMateri: TFMateri
   Left = 246
   Top = 149
   Width = 970
   Height = 504
-  Caption = 'Form2'
+  Caption = 'Materi'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,14 +13,14 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Image1: TImage
+  object Background: TImage
     Left = 0
     Top = 0
     Width = 953
     Height = 457
     Center = True
   end
-  object Image2: TImage
+  object MateriImg: TImage
     Left = 688
     Top = 160
     Width = 240
@@ -39,12 +39,11 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
   end
-  object Panel1: TPanel
+  object DisplayPnl: TPanel
     Left = 64
     Top = 160
     Width = 320
     Height = 240
-    Caption = 'Panel1'
     TabOrder = 0
   end
   object MediaVideo: TMediaPlayer
@@ -79,13 +78,13 @@ object Form2: TForm2
     Visible = False
     TabOrder = 4
   end
-  object Memo1: TMemo
+  object Teks: TMemo
     Left = 424
     Top = 160
     Width = 217
     Height = 241
     Lines.Strings = (
-      'Memo1')
+      'Teks')
     TabOrder = 5
   end
 end
