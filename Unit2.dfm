@@ -26,6 +26,7 @@ object FMateri: TFMateri
     Top = 160
     Width = 240
     Height = 241
+    Stretch = True
   end
   object LblJdl: TLabel
     Left = 280

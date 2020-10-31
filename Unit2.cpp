@@ -27,6 +27,7 @@ void __fastcall TFMateri::Timer1Timer(TObject *Sender)
 {
 Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[1]);
+MateriImg->Picture->LoadFromFile(Imname[1]);
 Timer1->Enabled = false;
 
 }
@@ -36,6 +37,7 @@ void __fastcall TFMateri::Timer2Timer(TObject *Sender)
 {
  Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[2]);
+MateriImg->Picture->LoadFromFile(Imname[2]);
 Timer2->Enabled = false;
 }
 //---------------------------------------------------------------------------
@@ -44,7 +46,8 @@ void __fastcall TFMateri::Timer3Timer(TObject *Sender)
 {
 Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[3]);
- Timer3->Enabled = false;
+MateriImg->Picture->LoadFromFile(Imname[3]);
+Timer3->Enabled = false;
 }
 //---------------------------------------------------------------------------
 
@@ -52,6 +55,8 @@ void __fastcall TFMateri::Timer4Timer(TObject *Sender)
 {
  Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[4]);
+
+MateriImg->Picture->LoadFromFile(Imname[4]);
 Timer4->Enabled = false;
 }
 //---------------------------------------------------------------------------

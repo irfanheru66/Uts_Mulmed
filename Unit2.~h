@@ -40,6 +40,7 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
 String Filename[6];
+String Imname[6];
         __fastcall TFMateri(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
