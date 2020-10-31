@@ -36,6 +36,7 @@ __published:	// IDE-managed Components
         void __fastcall Timer2Timer(TObject *Sender);
         void __fastcall Timer3Timer(TObject *Sender);
         void __fastcall Timer4Timer(TObject *Sender);
+        void __fastcall FormCreate(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 String Filename[6];

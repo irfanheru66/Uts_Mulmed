@@ -56,3 +56,12 @@ Timer4->Enabled = false;
 }
 //---------------------------------------------------------------------------
 
+
+void __fastcall TFMateri::FormCreate(TObject *Sender)
+{
+MediaMusik->FileName = "musik2.wav";
+MediaMusik->Open();
+MediaMusik->Play();        
+}
+//---------------------------------------------------------------------------
+

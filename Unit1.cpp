@@ -23,7 +23,7 @@ FUtama->Hide();
 
 FMateri->LblJdl->Caption = "Kenalan yuk sama Smart Waste Management!"  ;
 FMateri->Teks->Lines->LoadFromFile("1Definisi.txt");
-FMateri->Filename[0] = "1Definisi2.txt";
+FMateri->Filename[1] = "1Definisi2.txt";
 FMateri->Timer1->Enabled = true;
 FMateri->Timer1->Interval = 5000;
 

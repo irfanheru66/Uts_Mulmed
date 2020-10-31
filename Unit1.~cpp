@@ -18,6 +18,7 @@ __fastcall TFUtama::TFUtama(TComponent* Owner)
 
 void __fastcall TFUtama::BitDefinisiClick(TObject *Sender)
 {
+
 FMateri->Show();
 FUtama->Hide();
 
@@ -63,11 +64,11 @@ FMateri->Timer1->Interval = 5000;
 
 FMateri->Filename[2] = "2Cara Kerja3.txt";
 FMateri->Timer2->Enabled = true;
-FMateri->Timer2->Interval = 5000;
+FMateri->Timer2->Interval = 10000;
 
 FMateri->Filename[3] = "2Cara Kerja4.txt";
 FMateri->Timer3->Enabled = true;
-FMateri->Timer3->Interval = 5000;
+FMateri->Timer3->Interval = 15000;
 }
 //---------------------------------------------------------------------------
 

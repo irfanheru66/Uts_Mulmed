@@ -27,6 +27,7 @@ void __fastcall TFMateri::Timer1Timer(TObject *Sender)
 {
 Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[1]);
+Timer1->Enabled = false;
 
 }
 //---------------------------------------------------------------------------
@@ -35,7 +36,7 @@ void __fastcall TFMateri::Timer2Timer(TObject *Sender)
 {
  Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[2]);
-
+Timer2->Enabled = false;
 }
 //---------------------------------------------------------------------------
 
@@ -43,7 +44,7 @@ void __fastcall TFMateri::Timer3Timer(TObject *Sender)
 {
 Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[3]);
-
+ Timer3->Enabled = false;
 }
 //---------------------------------------------------------------------------
 
@@ -51,6 +52,15 @@ void __fastcall TFMateri::Timer4Timer(TObject *Sender)
 {
  Teks->Clear();
 Teks->Lines->LoadFromFile(Filename[4]);
+Timer4->Enabled = false;
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TFMateri::FormCreate(TObject *Sender)
+{
+MediaMusik->Open("musik2.wav");
+MediaMusik->Play();        
 }
 //---------------------------------------------------------------------------
 
