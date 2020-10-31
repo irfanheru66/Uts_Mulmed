@@ -16,6 +16,41 @@ __fastcall TFUtama::TFUtama(TComponent* Owner)
 }
 //---------------------------------------------------------------------------
 
+//-------------------ehem, jadi gini boi ----------------------------
+//ini moon maap karena spaghetti code kek gini karena aing cara gatau bikin class di borland kumaha
+//atau keknya aing yang males nyari ehe!,kira kira untuk workflow nya kek gini
+//Semua data yang akan ditampilin di form Materi(FMateri) di inisialisasiin disini
+//soalnya biar dinamis dan gaperlu buat banyak banyak form.
+
+//-------------Untuk nama file :-----------
+//1. untuk txt
+//"Nomor""Materi""bagian",Nomor biar ngurut ajasih dan gampang dicari karena udah ada nama materinya
+//jadi gampang buat diinget, harusnya.dan bagian untuk tau ini bagian yang mana
+//2. untuk gambar
+//"Materi""section",Materi biar gampang diinget,section itu ya section aja bisa angka
+//atau kata kunci. bisa diliat lah yah contohnya di code di bawah ini
+
+//------fileName dan imName -------
+//fileName adalah array di Form Materi yang difungsikan untuk ngisi nama file txt.
+//kenapa harus buat ini
+//button onClick Definisi
+// urg mau nampilin text"1Definisi2.txt" di memo di timer1.
+//tapi kan memo masih diisi sama "1Definisi.txt". gimana caranya timer1 tau file "1Definisi2.txt"
+// nah disitulah filename berguna.
+//filename ini kek penampung sementara nama file yang akan ditampilkan.
+//indeksnya berfungsi untuk nunjukin dia ditaro di timer berapa
+//contoh, Filename[1] = "1Definisi2.txt"; berarti si "1Definisi2.txt" akan ditampilin di timer1 , dst.
+// makanya pastiin indeksnya bener.
+//untuk imName juga sama sih konsepnya cuman kalo imName ya image.
+
+//--------progreess---------
+//paling baru musik gambar sama teks dulu sih.
+// sama kek baru diatur timing nya gitu.
+
+//------Video------
+//untuk video keknya di Materi Implementasi aja keknya
+
+
 void __fastcall TFUtama::BitDefinisiClick(TObject *Sender)
 {
 FMateri->Show();
