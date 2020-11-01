@@ -59,7 +59,7 @@ object FMateri: TFMateri
   end
   object MediaAnimasi: TMediaPlayer
     Left = 96
-    Top = 272
+    Top = 264
     Width = 253
     Height = 33
     Visible = False
@@ -67,7 +67,7 @@ object FMateri: TFMateri
   end
   object MediaVoice: TMediaPlayer
     Left = 96
-    Top = 336
+    Top = 328
     Width = 253
     Height = 33
     Visible = False
@@ -75,7 +75,7 @@ object FMateri: TFMateri
   end
   object MediaMusik: TMediaPlayer
     Left = 96
-    Top = 304
+    Top = 296
     Width = 253
     Height = 33
     Visible = False

@@ -43,6 +43,18 @@ String Filename[6];
 String Imname[6];
         __fastcall TFMateri(TComponent* Owner);
 };
+/*Jadi gini gai kalo mau bikin fungsi sendiri.
+pertama bikin classnya di sini. terus inisiasi nama fungsinya.
+terus inisiasi nama voidnya.
+biar gampang nama classnya ini aja, terus tinggal tambah" voidnya kalo perlu
+lanjut ke file C++nya.*/
+class fungsiku{
+private: //sabeb kalo perlu
+
+public:
+        void implementasi();
+        //silahkan tambah void baru dibawah sini
+};
 //---------------------------------------------------------------------------
 extern PACKAGE TFMateri *FMateri;
 //---------------------------------------------------------------------------
