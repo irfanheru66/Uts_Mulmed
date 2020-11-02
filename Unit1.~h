@@ -9,6 +9,7 @@
 #include <Forms.hpp>
 #include <ExtCtrls.hpp>
 #include <Buttons.hpp>
+#include <Graphics.hpp>
 //---------------------------------------------------------------------------
 class TFUtama : public TForm
 {
@@ -25,6 +26,7 @@ __published:	// IDE-managed Components
         void __fastcall BitBtn5Click(TObject *Sender);
         void __fastcall BitBedaClick(TObject *Sender);
         void __fastcall BitCaraKerjaClick(TObject *Sender);
+        void __fastcall BitImplementasiClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TFUtama(TComponent* Owner);

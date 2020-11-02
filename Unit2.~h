@@ -10,6 +10,7 @@
 #include <ExtCtrls.hpp>
 #include <MPlayer.hpp>
 #include <Buttons.hpp>
+#include <Graphics.hpp>
 //---------------------------------------------------------------------------
 class TFMateri : public TForm
 {
@@ -54,6 +55,8 @@ private: //sabeb kalo perlu
 public:
         void implementasi();
         //silahkan tambah void baru dibawah sini
+        void SetTimer(int timerNo, int timerIntr, bool isTimerOn);
+        void SetVideo(String flName);
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TFMateri *FMateri;

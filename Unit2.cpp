@@ -81,3 +81,45 @@ FUtama->Show();
 FMateri->Hide();
 }
 //---------------------------------------------------------------------------
+void fungsiku::SetTimer(int timerNo, int timerIntr, bool isTimerOn)
+{
+switch(timerNo){
+ case 1:
+  FMateri->Timer1->Enabled = isTimerOn;
+  FMateri->Timer1->Interval = timerIntr;
+  break;
+ case 2:
+  FMateri->Timer2->Enabled = isTimerOn;
+  FMateri->Timer2->Interval = timerIntr;
+  break;
+ case 3:
+  FMateri->Timer3->Enabled = isTimerOn;
+  FMateri->Timer3->Interval = timerIntr;
+  break;
+ case 4:
+  FMateri->Timer4->Enabled = isTimerOn;
+  FMateri->Timer4->Interval = timerIntr;
+  break;
+ case 5:
+  FMateri->Timer5->Enabled = isTimerOn;
+  FMateri->Timer5->Interval = timerIntr;
+  break;
+ case 6:
+  FMateri->Timer6->Enabled = isTimerOn;
+  FMateri->Timer6->Interval = timerIntr;
+  break;
+ default:
+  FMateri->Timer1->Enabled = isTimerOn;
+  FMateri->Timer1->Interval = timerIntr;
+}
+}
+//---------------------------------------------------------------------------
+void fungsiku::SetVideo(String flName)
+{
+FMateri->MediaVideo->FileName = flName;
+FMateri->MediaVideo->Open();
+FMateri->MediaVideo->Display = FMateri->DisplayPnl;
+FMateri->MediaVideo->DisplayRect = Rect (0,0, FMateri->DisplayPnl->Width, FMateri->DisplayPnl->Height);
+FMateri->MediaVideo->Play();
+}
+//---------------------------------------------------------------------------
