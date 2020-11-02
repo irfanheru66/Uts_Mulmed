@@ -5,6 +5,7 @@
 
 #include "Unit1.h"
 #include "Unit2.h"
+#include "Unit3.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -124,10 +125,9 @@ FMateri->Timer4->Interval = 15000;
 
 void __fastcall TFUtama::BitImplementasiClick(TObject *Sender)
 {
-FMateri->Show();
+Form3->Show();
+FMateri->MediaMusik->Stop();
 FUtama->Hide();
-Func->SetVideo("1implementasi.wmv");
-//Func->SetTimer(1, 15000, true);
 }
 //---------------------------------------------------------------------------
 
