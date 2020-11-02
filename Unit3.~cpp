@@ -49,7 +49,7 @@ Timer1->Enabled = false;
 Timer2->Enabled = false;
 MediaPlayer2->Close();
 MediaPlayer2->Close();
-FMateri->MediaMusik->Stop();
+FMateri->MediaMusik->Play();
 FUtama->Show();
 Form3->Hide();
 }
