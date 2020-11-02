@@ -27,6 +27,7 @@ __published:	// IDE-managed Components
         void __fastcall BitBedaClick(TObject *Sender);
         void __fastcall BitCaraKerjaClick(TObject *Sender);
         void __fastcall BitImplementasiClick(TObject *Sender);
+        void __fastcall BitBtn6Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TFUtama(TComponent* Owner);
