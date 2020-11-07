@@ -134,6 +134,7 @@ FUtama->Hide();
 
 void __fastcall TFUtama::BitBtn6Click(TObject *Sender)
 {
+FMateri->MediaMusik->Stop();
 Form4->Show();
 FUtama->Hide();
 }

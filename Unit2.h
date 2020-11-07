@@ -15,7 +15,6 @@
 class TFMateri : public TForm
 {
 __published:	// IDE-managed Components
-        TImage *Background;
         TPanel *DisplayPnl;
         TImage *MateriImg;
         TMediaPlayer *MediaVideo;

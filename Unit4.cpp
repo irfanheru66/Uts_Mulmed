@@ -5,6 +5,7 @@
 
 #include "Unit4.h"
 #include "Unit1.h"
+#include "Unit2.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -27,5 +28,6 @@ void __fastcall TForm4::Button1Click(TObject *Sender)
 MediaPlayer1->Close();
 Form4->Hide();
 FUtama->Show();
+FMateri->MediaMusik->Play();
 }
 //---------------------------------------------------------------------------

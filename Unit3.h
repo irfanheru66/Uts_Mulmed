@@ -14,7 +14,6 @@
 class TForm3 : public TForm
 {
 __published:	// IDE-managed Components
-        TImage *Image1;
         TLabel *Label1;
         TPanel *Panel1;
         TMediaPlayer *MediaPlayer1;
