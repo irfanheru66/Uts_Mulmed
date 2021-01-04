@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 328
-  Top = 117
+  Left = 314
+  Top = 52
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
   Caption = 'Credit'
@@ -10117,8 +10117,8 @@ object Form4: TForm4
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 136
-    Top = 648
+    Left = 312
+    Top = 344
     Width = 193
     Height = 57
     Caption = 'MAIN MENU'

@@ -29,6 +29,7 @@ __published:	// IDE-managed Components
         TTimer *Timer3;
         TTimer *Timer4;
         TButton *Button1;
+        TImage *Image1;
         void __fastcall BitBtn5Click(TObject *Sender);
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Timer2Timer(TObject *Sender);

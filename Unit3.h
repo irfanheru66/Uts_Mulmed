@@ -23,6 +23,7 @@ __published:	// IDE-managed Components
         TTimer *Timer1;
         TTimer *Timer2;
         TButton *Button3;
+        TImage *Image1;
         void __fastcall FormShow(TObject *Sender);
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Timer2Timer(TObject *Sender);
