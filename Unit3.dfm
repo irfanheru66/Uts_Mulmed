@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 322
-  Top = 90
+  Left = 561
+  Top = 239
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
   Caption = 'Contoh Implementasi'
@@ -55,7 +55,7 @@ object Form3: TForm3
     end
   end
   object Button1: TButton
-    Left = 104
+    Left = 72
     Top = 368
     Width = 185
     Height = 65
@@ -64,14 +64,23 @@ object Form3: TForm3
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 576
-    Top = 376
+    Left = 632
+    Top = 368
     Width = 177
     Height = 65
     Caption = 'STOP VIDEO'
     Enabled = False
     TabOrder = 2
     OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 360
+    Top = 368
+    Width = 177
+    Height = 65
+    Caption = 'PLAY VIDEO'
+    TabOrder = 3
+    OnClick = Button3Click
   end
   object Timer1: TTimer
     Enabled = False
@@ -82,7 +91,7 @@ object Form3: TForm3
   end
   object Timer2: TTimer
     Enabled = False
-    Interval = 60000
+    Interval = 15000
     OnTimer = Timer2Timer
     Left = 112
     Top = 112

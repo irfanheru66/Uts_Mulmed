@@ -26,6 +26,7 @@ MediaPlayer1->Play();
 MediaPlayer2->FileName = "1implementasi.wmv";
 MediaPlayer2->Open();
 MediaPlayer2->DisplayRect = Rect (0,0, Panel1->Width, Panel1->Height);
+Button2->Enabled = false;
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm3::Timer1Timer(TObject *Sender)
@@ -60,3 +61,13 @@ Timer2->Enabled = false;
 MediaPlayer2->Stop();
 }
 //---------------------------------------------------------------------------
+void __fastcall TForm3::Button3Click(TObject *Sender)
+{
+Timer1->Enabled = false;
+MediaPlayer1->Stop();
+MediaPlayer2->Play();
+Timer2->Enabled = true;
+Button2->Enabled = true;
+}
+//---------------------------------------------------------------------------
+

@@ -22,11 +22,13 @@ __published:	// IDE-managed Components
         TButton *Button2;
         TTimer *Timer1;
         TTimer *Timer2;
+        TButton *Button3;
         void __fastcall FormShow(TObject *Sender);
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Timer2Timer(TObject *Sender);
         void __fastcall Button1Click(TObject *Sender);
         void __fastcall Button2Click(TObject *Sender);
+        void __fastcall Button3Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm3(TComponent* Owner);

@@ -31,6 +31,9 @@ __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
         __fastcall TFUtama(TComponent* Owner);
+        void definisi();
+        void perbedaan();
+        void carakerja();
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TFUtama *FUtama;
